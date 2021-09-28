@@ -13,14 +13,19 @@
 ## Static Methods
 
       String.raw() - gets a raw string from template strings (ignore)
+
       String.fromCharCode() - UTF-16 code units (ignore)
+
       String.fromCodePoint() - creates a string from 'code points' (ignore)
 
 ## Instance Methods
 
-      charAt() - Finds that character at a certain point (use square brackets `str[2]`)
+xx    `at` - Allows `array.at(-1)` instead of `array[array.length-1]` (* browser support! Polyfill available)
+
+x     charAt() - Finds that character at a certain point (use square brackets `str[2]`)
 
 x     charCodeAt() - Finds the character code (UTF-16) at that point
+
 x     codePointAt() - Finds the codepoint at that point (general unicode)
 
 x     concat() - Join strings
@@ -30,16 +35,19 @@ xx    endsWith() - check end of string for `<some string>` (end is adjustable)
 xxx   includes() - checks entire string for `<some string>` (search start point is adjustable) returns boolean
 
 xx    indexOf() - Finds the first position of `<some string>`
+
 x     lastIndexOf() - Finds the last position of `<some string>`
 
 x     localeCompare() - comparing 2 strings of different locales (when they have non-standard letters, like ë)
 
 xxx   match() - like includes but uses Regular Expressions
+
 x     matchAll() - like match, but returns an iterator (generator fn that can be used later)
 
 x     normalize() - turns unicode codepoints into normal string
 
 xx    padEnd() - add some characters at the end to make it a certain length
+
 xx    padStart() - same as padEnd, but at the start
 
 xx    repeat() - create a string that repeats another `n` times
@@ -60,7 +68,9 @@ xx    startsWith() - check start of string for `<some string>`(start is adjustab
       substr() - legacy! **use slice**
 
 x     toLocaleLowerCase() - transforms to regional lowercase
+
 x     toLocaleUpperCase() - transforms to regional uppercase
+
 xx    toLowerCase() - transforms to lowercase
 
 toString() - Aliases to valueOf() for strings
@@ -68,7 +78,9 @@ toString() - Aliases to valueOf() for strings
 xx    toUpperCase() - transforms to uppercase
 
 xxx   trim() - removes whitespace from both ends
+
 x     trimEnd()/trimRight() - removes whitespace from end
+
 x     trimStart()/trimLeft() - removes whitespace from start
 
       valueOf() - converts Constructed string objects e.g. `String(2)` to basic strings `'2'`. ** Usually called internally, not in code!! **

@@ -12,7 +12,7 @@ xxxx  `Array.isArray()` - tests if something is an array
 
 `x`s represent likelyhood of use
 
-x     `at` - Allows `array.at(-1)` instead of `array[array.length-1]`
+xx    `at` - Allows `array.at(-1)` instead of `array[array.length-1]` (* browser support! Polyfill available)
 
 xx    `concat` - Join 2 or more arrays (returns new array)
 
