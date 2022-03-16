@@ -54,7 +54,7 @@ xx    repeat() - create a string that repeats another `n` times
 
 xxx   replace() - replaces string/regex with another value (often `''` to remove things) - **IF PATTERN IS STRING only the first instance is replaced**
 
-x     replaceAll() - like replace but global (not fully supported)
+x     replaceAll() - like replace but global
 
 xxx   search() - Search a string with a regular expression
 
