@@ -12,11 +12,11 @@
 
 ## Static Methods
 
-      String.raw() - gets a raw string from template strings (ignore)
+String.raw() - gets a raw string from template strings (ignore)
 
-      String.fromCharCode() - UTF-16 code units (ignore)
+String.fromCharCode() - UTF-16 code units (ignore)
 
-      String.fromCodePoint() - creates a string from 'code points' (ignore)
+String.fromCodePoint() - creates a string from 'code points' (ignore)
 
 ## Instance Methods
 
@@ -64,18 +64,18 @@ xxxx  split() - turn a string into an array (splitting it on a searchTerm)
 
 xx    startsWith() - check start of string for `<some string>`(start is adjustable)
 
-      substring() - **use slice**
-      substr() - legacy! **use slice**
+substring() - **use slice**
+substr() - legacy! **use slice**
 
 x     toLocaleLowerCase() - transforms to regional lowercase
 
 x     toLocaleUpperCase() - transforms to regional uppercase
 
-xx    toLowerCase() - transforms to lowercase
+xxxx  toLowerCase() - transforms to lowercase
 
 toString() - Aliases to valueOf() for strings
 
-xx    toUpperCase() - transforms to uppercase
+xxxx  toUpperCase() - transforms to uppercase
 
 xxx   trim() - removes whitespace from both ends
 
@@ -83,6 +83,6 @@ x     trimEnd()/trimRight() - removes whitespace from end
 
 x     trimStart()/trimLeft() - removes whitespace from start
 
-      valueOf() - converts Constructed string objects e.g. `String(2)` to basic strings `'2'`. ** Usually called internally, not in code!! **
+valueOf() - converts Constructed string objects e.g. `String(2)` to basic strings `'2'`. ** Usually called internally, not in code!! **
 
       String.prototype[@@iterator]() - for interal use (gets the generator fn to iterate over the string with. Used by `for...of`, etc.)
