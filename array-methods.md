@@ -58,7 +58,7 @@ x     `reduceRight` - Same as reduce but start at the other end
 
 xx    `reverse` - change the order
 
-xxx   `shift` - put something on the front of an array
+xxx   `shift` - take something off the front of an array
 
 xxxx  `slice` - copy part of the array
 
