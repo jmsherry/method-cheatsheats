@@ -6,7 +6,7 @@ xxx   `Array.from()` - turns things into an array (e.g. `Array.from(arguments)`)
 
 xxxx  `Array.isArray()` - tests if something is an array
 
-      `Array.of()` - A mended version of the Array constructor (ignore) (`Array.of(8)` gives `[8]`; `new Array(8)` gives `[,,,,,,,]`)
+xx    `Array.of()` - A mended version of the Array constructor (ignore) (`Array.of(8)` gives `[8]`; `new Array(8)` gives `[,,,,,,,]`)
 
 ## Instance methods (found in each array)
 
